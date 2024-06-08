@@ -38,9 +38,7 @@ const Homepage = (props) => {
                     </div>
                 </div>
             </div>
-            
-            {/* Footer */}
-            <Footer/>
+        
         </div>
     );
 }

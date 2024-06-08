@@ -9,8 +9,7 @@ const Navbar = (props) => {
  console.log(contextValues);
 
   const {page,userPoints} = props;
-
-  const customColor = (x) => {
+ const customColor = (x) => {
     return { color: page === x ? "red" : "white" };
   };
 
