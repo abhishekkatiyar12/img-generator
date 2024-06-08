@@ -3106,7 +3106,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./src/pages/homepage/homepage.js":"gTUEJ","./src/pages/imagegenerator/imagegenerator.js":"aI6mQ","./src/pages/historypage/historypage.js":"4aoS6","./src/pages/contactpage/contactpage.js":"lp72G","./src/pages/helppage/helppage.js":"iOtbG","./src/pages/signuppage/signuppage.js":"fiiqf","./src/pages/historyInformation/historyInformation.js":"fPNR1","./src/context/pointsContext.js":"3EBhw","./src/pages/login/login.js":"dnRSK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./src/pages/homepage/homepage.js":"gTUEJ","./src/pages/imagegenerator/imagegenerator.js":"aI6mQ","./src/pages/historypage/historypage.js":"4aoS6","./src/pages/contactpage/contactpage.js":"lp72G","./src/pages/helppage/helppage.js":"iOtbG","./src/pages/signuppage/signuppage.js":"fiiqf","./src/pages/historyInformation/historyInformation.js":"fPNR1","./src/context/pointsContext.js":"3EBhw","./src/pages/login/login.js":"dnRSK"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -34072,362 +34072,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"gTUEJ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$ea7e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$ea7e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _navbarJs = require("../common/navbar/navbar.js");
-var _navbarJsDefault = parcelHelpers.interopDefault(_navbarJs);
-var _homepageCss = require("./homepage.css");
-var _footerJs = require("../common/footer/footer.js");
-var _footerJsDefault = parcelHelpers.interopDefault(_footerJs);
-var _reactRouterDom = require("react-router-dom");
-const Homepage = (props)=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarJsDefault.default), {
-                page: "home"
-            }, void 0, false, {
-                fileName: "src/pages/homepage/homepage.js",
-                lineNumber: 11,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "homepage-main-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "welcome-section",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                children: "Welcome to ImageGen"
-                            }, void 0, false, {
-                                fileName: "src/pages/homepage/homepage.js",
-                                lineNumber: 15,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Generate stunning images with our AI-powered image generator."
-                            }, void 0, false, {
-                                fileName: "src/pages/homepage/homepage.js",
-                                lineNumber: 16,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: `/Image-generator`,
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    className: "cta-button",
-                                    children: "Start Generating"
-                                }, void 0, false, {
-                                    fileName: "src/pages/homepage/homepage.js",
-                                    lineNumber: 18,
-                                    columnNumber: 25
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/pages/homepage/homepage.js",
-                                lineNumber: 17,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/pages/homepage/homepage.js",
-                        lineNumber: 14,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "features-section",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Features"
-                            }, void 0, false, {
-                                fileName: "src/pages/homepage/homepage.js",
-                                lineNumber: 24,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "features-grid",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "feature-item",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "High Quality"
-                                            }, void 0, false, {
-                                                fileName: "src/pages/homepage/homepage.js",
-                                                lineNumber: 28,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                children: "Create high-resolution images in seconds."
-                                            }, void 0, false, {
-                                                fileName: "src/pages/homepage/homepage.js",
-                                                lineNumber: 29,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/pages/homepage/homepage.js",
-                                        lineNumber: 27,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "feature-item",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Customizable"
-                                            }, void 0, false, {
-                                                fileName: "src/pages/homepage/homepage.js",
-                                                lineNumber: 32,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                children: "Adjust settings to get the perfect image."
-                                            }, void 0, false, {
-                                                fileName: "src/pages/homepage/homepage.js",
-                                                lineNumber: 33,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/pages/homepage/homepage.js",
-                                        lineNumber: 31,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "feature-item",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Fast"
-                                            }, void 0, false, {
-                                                fileName: "src/pages/homepage/homepage.js",
-                                                lineNumber: 36,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                children: "Quickly generate images with our optimized algorithms."
-                                            }, void 0, false, {
-                                                fileName: "src/pages/homepage/homepage.js",
-                                                lineNumber: 37,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/pages/homepage/homepage.js",
-                                        lineNumber: 35,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/pages/homepage/homepage.js",
-                                lineNumber: 25,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/pages/homepage/homepage.js",
-                        lineNumber: 23,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/pages/homepage/homepage.js",
-                lineNumber: 12,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerJsDefault.default), {}, void 0, false, {
-                fileName: "src/pages/homepage/homepage.js",
-                lineNumber: 44,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/pages/homepage/homepage.js",
-        lineNumber: 9,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Homepage;
-exports.default = Homepage;
-var _c;
-$RefreshReg$(_c, "Homepage");
-
-  $parcel$ReactRefreshHelpers$ea7e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../common/navbar/navbar.js":"bZsz4","./homepage.css":"ceyL1","../common/footer/footer.js":"lH5aO","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bZsz4":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$fdf1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$fdf1.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _navbarCss = require("./navbar.css");
-var _reactRouterDom = require("react-router-dom");
-var _react = require("react");
-var _pointsContext = require("../../../context/pointsContext");
-var _pointsContextDefault = parcelHelpers.interopDefault(_pointsContext);
-var _s = $RefreshSig$();
-const Navbar = (props)=>{
-    _s();
-    const contextValues = (0, _react.useContext)((0, _pointsContextDefault.default));
-    console.log(contextValues);
-    const { page, userPoints } = props;
-    const customColor = (x)=>{
-        return {
-            color: page === x ? "red" : "white"
-        };
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "navbar-main-container",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "left",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/",
-                        style: customColor("home"),
-                        children: "Home"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 21,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/Image-generator",
-                        style: customColor("imagegenerator"),
-                        children: "ImageGenerator"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 24,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/History",
-                        style: customColor("history"),
-                        children: "History"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 27,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/ContactUs",
-                        style: customColor("contact"),
-                        children: "Contact Us"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 30,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/Help",
-                        style: customColor("help"),
-                        children: "Help"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 33,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/SignUp",
-                        style: customColor("signup"),
-                        children: "SignUp"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 36,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/login",
-                        style: customColor("login"),
-                        children: "Login"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/navbar/navbar.js",
-                        lineNumber: 39,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/pages/common/navbar/navbar.js",
-                lineNumber: 20,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "right",
-                style: {
-                    padding: "4px",
-                    color: "brown"
-                },
-                children: contextValues.userPoints
-            }, void 0, false, {
-                fileName: "src/pages/common/navbar/navbar.js",
-                lineNumber: 44,
-                columnNumber: 6
-            }, undefined),
-            contextValues.isLoggedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: contextValues.logout,
-                children: "Logout"
-            }, void 0, false, {
-                fileName: "src/pages/common/navbar/navbar.js",
-                lineNumber: 48,
-                columnNumber: 17
-            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: contextValues.login,
-                children: "Login"
-            }, void 0, false, {
-                fileName: "src/pages/common/navbar/navbar.js",
-                lineNumber: 49,
-                columnNumber: 18
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/pages/common/navbar/navbar.js",
-        lineNumber: 19,
-        columnNumber: 5
-    }, undefined);
-};
-_s(Navbar, "Y9XZS4O6OPXVK88OgBxSmJkdq3s=");
-_c = Navbar;
-exports.default = Navbar;
-var _c;
-$RefreshReg$(_c, "Navbar");
-
-  $parcel$ReactRefreshHelpers$fdf1.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","./navbar.css":"fpFqd","react-router-dom":"9xmpe","react":"21dqq","../../../context/pointsContext":"3EBhw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpFqd":[function() {},{}],"3EBhw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$25a9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$25a9.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-const PointsContext = /*#__PURE__*/ (0, _react.createContext)();
-exports.default = PointsContext;
-
-  $parcel$ReactRefreshHelpers$25a9.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -34565,11 +34210,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"ceyL1":[function() {},{}],"lH5aO":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c275 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"7422ead32dcc1e6b":"786KC"}],"gTUEJ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ea7e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c275.prelude(module);
+$parcel$ReactRefreshHelpers$ea7e.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34577,69 +34222,343 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _footerCss = require("./Footer.css");
-const Footer = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-        className: "homepage-footer",
+var _navbarJs = require("../common/navbar/navbar.js");
+var _navbarJsDefault = parcelHelpers.interopDefault(_navbarJs);
+var _homepageCss = require("./homepage.css");
+var _reactRouterDom = require("react-router-dom");
+const Homepage = (props)=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Contact us: abhishekatiyarr@gmail.com"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarJsDefault.default), {
+                page: "home"
             }, void 0, false, {
-                fileName: "src/pages/common/footer/footer.js",
-                lineNumber: 7,
-                columnNumber: 17
+                fileName: "src/pages/homepage/homepage.js",
+                lineNumber: 10,
+                columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "social-media-links",
+                className: "homepage-main-container",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#facebook",
-                        children: "Facebook"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/footer/footer.js",
-                        lineNumber: 9,
-                        columnNumber: 21
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "welcome-section",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "Welcome to ImageGen"
+                            }, void 0, false, {
+                                fileName: "src/pages/homepage/homepage.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Generate stunning images with our AI-powered image generator."
+                            }, void 0, false, {
+                                fileName: "src/pages/homepage/homepage.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: `/Image-generator`,
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "cta-button",
+                                    children: "Start Generating"
+                                }, void 0, false, {
+                                    fileName: "src/pages/homepage/homepage.js",
+                                    lineNumber: 17,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/pages/homepage/homepage.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/homepage/homepage.js",
+                        lineNumber: 13,
+                        columnNumber: 17
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#twitter",
-                        children: "Twitter"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/footer/footer.js",
-                        lineNumber: 10,
-                        columnNumber: 21
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#instagram",
-                        children: "Instagram"
-                    }, void 0, false, {
-                        fileName: "src/pages/common/footer/footer.js",
-                        lineNumber: 11,
-                        columnNumber: 21
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "features-section",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Features"
+                            }, void 0, false, {
+                                fileName: "src/pages/homepage/homepage.js",
+                                lineNumber: 23,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "features-grid",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "feature-item",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "High Quality"
+                                            }, void 0, false, {
+                                                fileName: "src/pages/homepage/homepage.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: "Create high-resolution images in seconds."
+                                            }, void 0, false, {
+                                                fileName: "src/pages/homepage/homepage.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/pages/homepage/homepage.js",
+                                        lineNumber: 26,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "feature-item",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "Customizable"
+                                            }, void 0, false, {
+                                                fileName: "src/pages/homepage/homepage.js",
+                                                lineNumber: 31,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: "Adjust settings to get the perfect image."
+                                            }, void 0, false, {
+                                                fileName: "src/pages/homepage/homepage.js",
+                                                lineNumber: 32,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/pages/homepage/homepage.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "feature-item",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "Fast"
+                                            }, void 0, false, {
+                                                fileName: "src/pages/homepage/homepage.js",
+                                                lineNumber: 35,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: "Quickly generate images with our optimized algorithms."
+                                            }, void 0, false, {
+                                                fileName: "src/pages/homepage/homepage.js",
+                                                lineNumber: 36,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/pages/homepage/homepage.js",
+                                        lineNumber: 34,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/pages/homepage/homepage.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/homepage/homepage.js",
+                        lineNumber: 22,
+                        columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/pages/common/footer/footer.js",
-                lineNumber: 8,
-                columnNumber: 17
+                fileName: "src/pages/homepage/homepage.js",
+                lineNumber: 11,
+                columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/pages/common/footer/footer.js",
-        lineNumber: 6,
-        columnNumber: 5
+        fileName: "src/pages/homepage/homepage.js",
+        lineNumber: 8,
+        columnNumber: 9
     }, undefined);
 };
-_c = Footer;
-exports.default = Footer;
+_c = Homepage;
+exports.default = Homepage;
 var _c;
-$RefreshReg$(_c, "Footer");
+$RefreshReg$(_c, "Homepage");
 
-  $parcel$ReactRefreshHelpers$c275.postlude(module);
+  $parcel$ReactRefreshHelpers$ea7e.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Footer.css":"ciMQC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ciMQC":[function() {},{}],"aI6mQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../common/navbar/navbar.js":"bZsz4","./homepage.css":"ceyL1","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bZsz4":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$fdf1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$fdf1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _navbarCss = require("./navbar.css");
+var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _pointsContext = require("../../../context/pointsContext");
+var _pointsContextDefault = parcelHelpers.interopDefault(_pointsContext);
+var _s = $RefreshSig$();
+const Navbar = (props)=>{
+    _s();
+    const contextValues = (0, _react.useContext)((0, _pointsContextDefault.default));
+    console.log(contextValues);
+    const { page, userPoints } = props;
+    const customColor = (x)=>{
+        return {
+            color: page === x ? "red" : "white"
+        };
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "navbar-main-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "left",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/",
+                        style: customColor("home"),
+                        children: "Home"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/Image-generator",
+                        style: customColor("imagegenerator"),
+                        children: "ImageGenerator"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/History",
+                        style: customColor("history"),
+                        children: "History"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/ContactUs",
+                        style: customColor("contact"),
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/Help",
+                        style: customColor("help"),
+                        children: "Help"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/SignUp",
+                        style: customColor("signup"),
+                        children: "SignUp"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/login",
+                        style: customColor("login"),
+                        children: "Login"
+                    }, void 0, false, {
+                        fileName: "src/pages/common/navbar/navbar.js",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/common/navbar/navbar.js",
+                lineNumber: 19,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "right",
+                style: {
+                    padding: "4px",
+                    color: "brown"
+                },
+                children: contextValues.userPoints
+            }, void 0, false, {
+                fileName: "src/pages/common/navbar/navbar.js",
+                lineNumber: 43,
+                columnNumber: 6
+            }, undefined),
+            contextValues.isLoggedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: contextValues.logout,
+                children: "Logout"
+            }, void 0, false, {
+                fileName: "src/pages/common/navbar/navbar.js",
+                lineNumber: 47,
+                columnNumber: 17
+            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: contextValues.login,
+                children: "Login"
+            }, void 0, false, {
+                fileName: "src/pages/common/navbar/navbar.js",
+                lineNumber: 48,
+                columnNumber: 18
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/common/navbar/navbar.js",
+        lineNumber: 18,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Navbar, "Y9XZS4O6OPXVK88OgBxSmJkdq3s=");
+_c = Navbar;
+exports.default = Navbar;
+var _c;
+$RefreshReg$(_c, "Navbar");
+
+  $parcel$ReactRefreshHelpers$fdf1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./navbar.css":"fpFqd","react-router-dom":"9xmpe","react":"21dqq","../../../context/pointsContext":"3EBhw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpFqd":[function() {},{}],"3EBhw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$25a9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$25a9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+const PointsContext = /*#__PURE__*/ (0, _react.createContext)();
+exports.default = PointsContext;
+
+  $parcel$ReactRefreshHelpers$25a9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ceyL1":[function() {},{}],"aI6mQ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$eafe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34668,7 +34587,7 @@ const ImageGenerator = (props)=>{
     const handleClick = async ()=>{
         cValue.setUserPoints(cValue.userPoints - 1);
         try {
-            const res = await fetch(`http://localhost:8000/api/v1/images`, {
+            const res = await fetch(`https://img-generator-edna.onrender.com/api/v1/images`, {
                 method: "POST",
                 body: JSON.stringify({
                     searchText: searchText
@@ -35206,7 +35125,7 @@ const Signup = ()=>{
             alert("Please enter both email and password");
             return;
         }
-        const res = await fetch("http://localhost:8000/api/v1/auth/signup", {
+        const res = await fetch("https://img-generator-edna.onrender.com/api/v1/auth/signup", {
             headers: {
                 "Content-Type": "application/json"
             },
@@ -35465,7 +35384,7 @@ const Login = ()=>{
             return;
         }
         try {
-            const res = await fetch(`http://localhost:8000/api/v1/auth/login`, {
+            const res = await fetch(`https://img-generator-edna.onrender.com/api/v1/auth/login`, {
                 headers: {
                     "Content-Type": "application/json"
                 },
