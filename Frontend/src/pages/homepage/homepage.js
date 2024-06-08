@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../common/navbar/navbar.js";
 import './homepage.css';
-import Footer from '../common/footer/footer.js';
 import { Link } from "react-router-dom";
 
 const Homepage = (props) => {
