@@ -1,10 +1,10 @@
-7378
+7382
 97C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@msgpackr-extract133623304049443971 1
 135C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@babel\helpers\lib\helpers\classPrivateMethodGet.js.map133623304016599199 0
 110C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@lmdb\lmdb-win32-x64\README.md133618264626563942 0
 113C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\entities\lib\encode-trie.d.ts.map133618264649193159 0
 117C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133618264656259130 0
-79C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\package.json133623331340425809 0
+79C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\package.json133623430715696021 0
 84C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\package-lock.json133623304053082052 0
 111C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\source-map\dist\node.js133618264641133885 0
 100C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\type-fest\index.d.ts133618264648583093 0
@@ -16,7 +16,7 @@
 118C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\cosmiconfig\dist\ExplorerBase.d.ts.map133618264651892996 0
 118C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\react-dom\cjs\react-dom.development.js133618263572406159 0
 125C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-select\lib\pseudo-selectors\subselects.js133618264651733043 0
-71C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist133623429464875405 1
+71C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist133623860775445891 1
 104C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\abortcontroller-polyfill133618264645023048 1
 103C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\core\index.d.ts133618264683196947 0
 129C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs133618264663987179 0
@@ -47,7 +47,7 @@
 114C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\type-fest\ts41\delimiter-case.d.ts133618264643183024 0
 70C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src133623250447914168 1
 79C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules133623306026312422 1
-101C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\signuppage\signuppage.js133623285630104073 0
+101C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\signuppage\signuppage.js133623860214883513 0
 91C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\.bin\rollup133623304029341348 0
 102C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\entities\lib\encode.js133618264638948553 0
 88C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\posthtml133618264631870381 1
@@ -173,7 +173,7 @@
 101C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\argparse\package.json133618264635972434 0
 112C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@babel\traverse\lib\types.js.map133623304014077930 0
 111C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\caniuse-lite\data\regions\CY.js133618264686070813 0
-91C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\login\login.js133623285519165056 0
+91C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\login\login.js133623860650478023 0
 153C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\moveGroupAttrsToElems.js133618264658612481 0
 94C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\clone\clone.js133618264630965213 0
 111C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\caniuse-lite\data\regions\PH.js133618264700684894 0
@@ -200,7 +200,7 @@
 97C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\helppage\helppage.js133623250448304219 0
 132C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\react-refresh\cjs\react-refresh-babel.development.js133618264627532643 0
 104C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\semver\functions\diff.js133618264642473025 0
-109C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\imagegenerator\imagegenerator.js133623285215384005 0
+109C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\src\pages\imagegenerator\imagegenerator.js133623860772339196 0
 119C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@babel\traverse\lib\path\replacement.js133623304012725833 0
 128C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\core\src\requests\ParcelConfigRequest.js133618264676485985 0
 131C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-select\node_modules\domutils\lib\esm\helpers.js133618264630694304 0
@@ -292,7 +292,7 @@
 109C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\ordered-binary\dist\index.cjs133618264625643959 0
 91C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@ampproject133623303977171741 1
 112C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\postcss-value-parser\lib\unit.js133618264631230407 0
-90C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.c41b5a0e.css133623429458381730 0
+90C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.c41b5a0e.css133623849493289802 0
 89C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@trysound133618264584499231 1
 110C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\svgo\plugins\removeComments.js133618264667946251 0
 123C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\caniuse-lite\data\features\selection-api.js133618264702642054 0
@@ -2299,6 +2299,7 @@
 101C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\postcss\lib\node.d.ts133623304009295410 0
 111C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\htmlnano\docs\package-lock.json133618264662324594 0
 102C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\postcss\lib\parse.d.ts133623304009384199 0
+93C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.2884ff41.js.map133623430862071380 0
 121C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@babel\helpers\lib\helpers\toPrimitive.js133623304025798297 0
 119C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\packager-css\lib\CSSPackager.js133618264625953956 0
 97C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\dotenv-expand\lib133618264632280347 1
@@ -3378,6 +3379,7 @@
 98C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\domhandler\LICENSE133618264622007730 0
 102C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\domelementtype\LICENSE133618264621977772 0
 120C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\caniuse-lite\data\features\pdf-viewer.js133618264700510813 0
+90C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.b79d06e0.css133623430861278179 0
 134C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\csso\node_modules\css-tree\lib\syntax\config\parser.js133618264683438077 0
 134C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-select\node_modules\domutils\lib\manipulation.d.ts133618264665877212 0
 102C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\domelementtype\lib\esm133618264639309740 1
@@ -3851,6 +3853,7 @@
 110C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-what\lib\es\types.d.ts.map133618264649303066 0
 104C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-what\lib\es\types.js133618264641265856 0
 119C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\caniuse-lite\data\features\css-fixed.js133618264680342974 0
+94C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.b79d06e0.css.map133623430862020805 0
 138C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-select\node_modules\domutils\lib\manipulation.d.ts.map133618264658792480 0
 112C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\css-what\lib\commonjs\index.d.ts133618264650613091 0
 126C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@swc\helpers\esm\_class_private_method_init.js133618264676556034 0
@@ -5752,7 +5755,7 @@
 109C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\utils\src\debounce.js133618264646823017 0
 111C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\utils\src\DefaultMap.js133618264647983030 0
 120C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\utils\src\dependency-location.js133618264649683063 0
-89C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.5baa4167.js133623429464552698 0
+89C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.5baa4167.js133623860775236968 0
 133C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data133618264677818800 1
 112C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\utils\src\escape-html.js133618264650413011 0
 121C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\utils\src\generateBuildMetrics.js133618264650832997 0
@@ -6288,7 +6291,7 @@
 159C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\DeclarationList.js133618264661275580 0
 152C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Function.js133618264664257075 0
 154C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Identifier.js133618264665887245 0
-82C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.html133623429458976543 0
+82C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.html133623849493349846 0
 149C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\index.js133618264669026282 0
 136C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@babel\helpers\lib\helpers\classPrivateMethodInitSpec.js133623304016622665 0
 156C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\MediaFeature.js133618264671966304 0
@@ -7374,6 +7377,7 @@
 95C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\.bin\semver.ps1133618264710578071 0
 89C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\.bin\svgo133618264710592041 0
 93C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\node_modules\.bin\svgo.ps1133618264710592041 0
+89C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.2884ff41.js133623430861318794 0
 89C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.f54bfa54.js133623310274618437 0
-94C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.c41b5a0e.css.map133623429459263801 0
-93C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.5baa4167.js.map133623429464819277 0
+94C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.c41b5a0e.css.map133623849493480986 0
+93C:\Users\abhishek katiyar\OneDrive\Desktop\imageGenerator\Frontend\dist\index.5baa4167.js.map133623860775411502 0

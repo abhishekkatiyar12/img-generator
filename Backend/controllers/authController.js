@@ -2,6 +2,7 @@ const userModel = require("../models/userModel");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
+
 const hashPassword = async(x) => {
     return await bcrypt.hash(x, 12);
 }
@@ -15,6 +16,7 @@ const generateToken = (x)=>{
 const signup = async (req, res) => {
     try{
         const {email, password} = req.body;
+       
         if(!email || !password) {
             return res.status(401).json({
                 status: 'fail',
@@ -56,6 +58,7 @@ const login = async (req, res) => {
             const hashedPassword = user.password;
             const result = await bcrypt.compare(password, hashedPassword);
             if(result){
+                
                 res.status(201).json({
                     status: 'success',
                     data:{
